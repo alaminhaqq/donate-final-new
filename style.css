@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Manrope&family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  height: 670px;
+}
+.hero h1 {
+  padding-top: 174px;
+  font-family: "Inter", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: white;
+  line-height: 78.66px;
+  text-align: center;
+}
+.hero p {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.hero .btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #FF5959;
+  width: 160px;
+  height: 56px;
+  border: none;
+  border-radius: 5px;
+}
+.hero .btn a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #FFFFFF;
+}
+
+.heroimage {
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(./image/heroimage.png);
+}
+
+.donatetoday h1 {
+  margin-top: 126px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #121212;
+  margin-top: 126px;
+  text-align: center;
+}
+.donatetoday p {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.donatetoday .donationamount {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.donatetoday .donationamount .amount {
+  height: 123px;
+  width: 135px;
+  margin-right: 22px;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.donatetoday .donationamount .amount a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.31px;
+  color: #707070;
+}
+.donatetoday .donationamount .amount:hover {
+  background-color: #FFEEEE;
+  border: 2px solid #FF5959;
+}
+.donatetoday .otheramounts {
+  margin-top: 60px;
+  text-align: center;
+}
+.donatetoday .otheramounts a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #B3B3B3;
+}
+.donatetoday .otheramounts hr {
+  width: 55%;
+  margin: auto;
+  margin-top: 10px;
+}
+.donatetoday .otheramounts .btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #FF5959;
+  width: 160px;
+  height: 56px;
+  border: none;
+  border-radius: 5px;
+}
+.donatetoday .otheramounts .btn a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #FFFFFF;
+}
+
+.ourdonateplan .top h1 {
+  margin-top: 130px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #121212;
+  text-align: center;
+}
+.ourdonateplan .top p {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  text-align: center;
+}
+.ourdonateplan .card {
+  margin-top: 50px;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ourdonateplan .card .cardone {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.ourdonateplan .card .cardcommon {
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.ourdonateplan .card .cardcommon .icon img {
+  margin-bottom: 32px;
+}
+.ourdonateplan .card .cardcommon .content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.ourdonateplan .card .cardcommon .content p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.ourdonateplan .card .cardtwo {
+  background-color: rgba(255, 89, 89, 0.1);
+  margin-right: 20px;
+}
+.ourdonateplan .card .cardthree {
+  background-color: rgb(255, 244, 214);
+}
+
+.depend {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.depend .dependcontent {
+  padding-left: 40px;
+}
+.depend .dependcontent h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: rgb(18, 18, 18);
+  margin-bottom: 20px;
+}
+.depend .dependcontent p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(112, 112, 112);
+  margin-bottom: 20px;
+}
+.depend .dependcontent .btn {
+  display: block;
+  margin-top: 40px;
+  background-color: #FF5959;
+  width: 230px;
+  height: 56px;
+  border: none;
+  border-radius: 5px;
+}
+.depend .dependcontent .btn a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #FFFFFF;
+}
+.depend .image {
+  padding-left: 40px;
+  width: 456px;
+  height: 477px;
+}
+
+.survive {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.survive .survivecontent {
+  padding-left: 40px;
+}
+.survive .survivecontent h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: rgb(18, 18, 18);
+  margin-bottom: 20px;
+}
+.survive .survivecontent p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(112, 112, 112);
+  margin-bottom: 20px;
+}
+.survive .survivecontent .btn {
+  display: block;
+  margin-top: 40px;
+  background-color: #FF5959;
+  width: 230px;
+  height: 56px;
+  border: none;
+  border-radius: 5px;
+}
+.survive .survivecontent .btn a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #FFFFFF;
+}
+.survive .image {
+  padding-left: 40px;
+  width: 456px;
+  height: 477px;
+}
+
+.updates h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: rgb(18, 18, 18);
+}
+.updates p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.contact {
+  width: 60%;
+  height: 200px;
+  margin-inline: auto;
+  margin-bottom: 130px;
+  background-color: rgb(255, 244, 214);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.contact .form {
+  width: 432px;
+  height: 48px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+}
+.contact .form input[type=email] {
+  width: 273px;
+  border: none;
+  padding-left: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(170, 159, 159);
+}
+.contact .form input[type=submit] {
+  width: 150px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: rgb(255, 89, 89);
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  width: 100%;
+  height: 177px;
+  background-color: #0B0D17;
+}
+.footer h1 {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: rgb(255, 89, 89);
+  padding-top: 43px;
+}
+.footer p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #D9DBE1;
+  padding-top: 24px;
+}/*# sourceMappingURL=style.css.map */
